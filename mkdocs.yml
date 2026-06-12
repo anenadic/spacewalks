@@ -1,0 +1,13 @@
+site_name: Spacewalks Documentation
+use_directory_urls: false
+theme:
+  name: "material"
+  font: false
+nav:
+  - Home: index.md
+  - Setup Guide: setup-guide.md
+  - How-To Guides: how-to-guides.md
+  - Reference: reference.md
+
+plugins:
+  - mkdocstrings
